@@ -1,0 +1,26 @@
+.heroSection{
+    background-color: #1f2937;
+}
+.headerLogo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerLinkSection{
+    display: flex;
+}
+.headerLink{
+    color:#e5e7eb;
+    font-size: 18px;
+}
+ul > li{
+    list-style-type: none;
+}
+.headerLinkSection > ul{
+    display: flex;
+    gap: 24px;
+}
