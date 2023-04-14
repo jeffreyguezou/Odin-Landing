@@ -1,6 +1,10 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .heroSection{
     background-color: #1f2937;
-    padding: 50px 100px 50px 100px;
+    padding: 0px 100px 50px 100px;
 }
 .headerLogo{
     font-size: 24px;
@@ -28,11 +32,11 @@ ul > li{
 .heroContent{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    margin-top: 100px;
 }
 
 .heroText{
-    padding-right: 48px;
+    width: 600px;
 }
 .mainText{
     color: #f9faf8;
@@ -48,4 +52,23 @@ ul > li{
     width:600px;
     height: 250px;
 
+}
+.signupButton{
+    background-color: #3882f6;
+    width: 150px;
+    padding: 8px;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 15px;
+    font-weight: 700;
+
+}
+.heroButton{
+    padding-top: 35px;
+}
+.signupButton:hover{
+    cursor: pointer;
+}
+.logoSection:hover{
+    cursor: pointer;
 }
