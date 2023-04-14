@@ -104,3 +104,23 @@ ul > li{
     font-size: 16px;
     padding: 10px;
 }
+.quoteSection{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    font-style: italic;
+    align-items: flex-end;
+}
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    padding: 70px;
+}
+.quoteBy{
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
+    padding-right: 100px;
+}
