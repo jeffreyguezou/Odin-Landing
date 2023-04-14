@@ -1,5 +1,6 @@
 .heroSection{
     background-color: #1f2937;
+    padding: 50px 100px 50px 100px;
 }
 .headerLogo{
     font-size: 24px;
@@ -7,7 +8,7 @@
 }
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .headerLinkSection{
@@ -23,4 +24,28 @@ ul > li{
 .headerLinkSection > ul{
     display: flex;
     gap: 24px;
+}
+.heroContent{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.heroText{
+    padding-right: 48px;
+}
+.mainText{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+}
+.subText{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.heroImage{
+    background-color: gray;
+    width:600px;
+    height: 250px;
+
 }
