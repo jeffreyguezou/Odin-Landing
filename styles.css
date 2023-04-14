@@ -144,3 +144,11 @@ ul > li{
     font-size: 18px;
     color:#e5e7eb;
 }
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
