@@ -4,7 +4,7 @@ body{
 
 .heroSection{
     background-color: #1f2937;
-    padding: 0px 100px 50px 100px;
+    padding: 0px 200px 50px 200px;
 }
 .headerLogo{
     font-size: 24px;
@@ -71,4 +71,36 @@ ul > li{
 }
 .logoSection:hover{
     cursor: pointer;
+}
+
+.infoSection{
+    padding: 38px;
+}
+.infocardImg{
+    width: 200px;
+    height: 200px;
+    border: #3882f6 solid 5px;
+    border-radius: 20px;
+}
+.infocardSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.infoHeader{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+.infoCard{
+    width:200px;
+    display: flex;
+    flex-wrap: wrap;
+}.infocardText{
+    color: #1f2937;
+    font-size: 16px;
+    padding: 10px;
 }
