@@ -61,6 +61,7 @@ ul > li{
     font-size: 18px;
     border-radius: 15px;
     font-weight: 700;
+    border:2px solid #f9faf8;
 
 }
 .heroButton{
@@ -123,4 +124,23 @@ ul > li{
     color: #1f2937;
     font-weight: bold;
     padding-right: 100px;
+}
+
+.actionCard{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    margin:100px;
+    border-radius: 25px;
+    padding: 50px;
+    align-items: center;
+}
+.actionHeader{
+    font-size: 36px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.actionText{
+    font-size: 18px;
+    color:#e5e7eb;
 }
